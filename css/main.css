@@ -1,0 +1,143 @@
+
+body {
+  /*background: linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('../images/background.jpg');*/
+  
+  background-image: url('../images/background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Responsive CSS */
+
+@media only screen and (min-width: 768px) {
+	
+	.notification {
+	  background-color: gray;
+	  margin-top: 100px;
+	  padding: 20px 300px 20px 300px;
+	  color: white;
+	  font-size: 12px;
+	  position: absolute;
+	  z-index: 1;
+	}
+	/*.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}*/
+	.centerImages{
+	  display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.centerButton{
+	  display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	/*.section {
+	height: 100%;  
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}*/
+	.wrapLeft {
+	  margin-left: 150px;  
+	  margin-bottom: 20px; 
+	  position: absolute;
+	  bottom: 8px;
+	  right: 16px;
+	  font-size: 18px;
+	}
+	.wrapRight {
+	  margin-right: 150px;  
+	  margin-bottom: 20px; 
+	  position: absolute;
+	  bottom: 8px;
+	  left: 16px;
+	  font-size: 18px;
+	}
+	.wrapCenter {
+	  margin-left: 30px;  
+	  margin-bottom: 20px;  
+	  position: absolute;
+	  bottom: 8px;
+	  font-size: 18px;
+	}
+	.button4 {
+	  background-color: transparent;
+	  color: white;
+	  font-size: 12px;
+	  border: 2px solid #e7e7e7;
+	}
+}
+
+@media only screen and (max-width: 411px) {
+	.notification {
+	    /* flex: 1; */
+	    background-color: gray;
+	    /* margin-top: 100px; */
+     	padding: 35px 35px 35px 35px; 
+	    color: white;
+	    font-size: 12px;
+	    position: relative;
+	    /* z-index: 1; */
+	}
+	.centerImages{
+		display: block;
+		margin-right: auto;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	.centerButton{
+		  display: block;
+		margin-left: auto;
+	}
+	.button4 {
+	  background-color: transparent;
+	  color: white;
+	  font-size: 12px;
+	  border: 2px solid #e7e7e7;
+	  display: block;
+	  margin-right: 20px;
+		margin-left: auto;
+		margin-top: -90px;
+		
+	}
+	.wrapLeft {
+	  margin-bottom: 50px; 
+	  bottom: 8px;
+	  right: 16px;
+	  font-size: 18px;
+	}
+
+	.wrapLeft h6 {
+		margin-top: -50px;
+    	margin-bottom: 70px;
+	}
+
+	.wrapCenter {
+	  margin-bottom: 50px; 
+	  bottom: 8px;
+	  right: 16px;
+	  font-size: 18px;
+	}
+
+	.wrapCenter h6 {
+		margin-top: -50px;
+    	margin-bottom: 70px;
+	}
+	.wrapRight {
+	   margin-bottom: 50px; 
+	  bottom: 8px;
+	  right: 16px;
+	  font-size: 18px;
+	}
+	.wrapRight h6 {
+		margin-top: -50px;
+    	margin-bottom: 70px;
+	}
+}
